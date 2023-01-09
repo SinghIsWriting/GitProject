@@ -35,3 +35,4 @@ eMsg = encryptMessage(input("Your Message: "))
 print(f"\n{Fore.RED}Encrypted Mesaage:", eMsg)
 print(f"{Fore.GREEN}Decrypted Message:",decryptMessage(eMsg))
 print()
+
