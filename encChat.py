@@ -2,8 +2,9 @@ import colorama
 from colorama import Fore
 colorama.init(autoreset=True)
 from random import choice
+from string import ascii_lowercase
 
-letters = "abcdefghijklmnopqrstuvwxyz"
+letters = ascii_lowercase
 
 def encryptMessage(message):
 	encMsg = ""
